@@ -22,7 +22,7 @@ def get_input_table_ddl(input_table_name):
                  model STRING
             ) WITH (
             'connector' = 'filesystem',
-            'path' = 'file:///opt/heart_rate_flink/data/input/events.txt',
+            'path' = 'file:///opt/heart_rate_flink/data/input/events.json',
             'format' = 'json'
             )""".format(input_table_name)
 
