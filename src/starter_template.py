@@ -32,7 +32,9 @@ def get_output_table_ddl(output_table_name):
     return   """CREATE TABLE {0} (
                  cid STRING,
                 `type` STRING,
-                 heartrates ARRAY<ROW<heartrate INT, ts BIGINT, `type` STRING>>
+                 ts BIGINT,
+                 heartrates ARRAY<ROW<heartrate INT, ts BIGINT, `type` STRING>>,
+                 model STRING
             ) WITH (
             'connector' = 'filesystem',
             'path' = 'file:///opt/heart_rate_flink/data/output/starter_result',
