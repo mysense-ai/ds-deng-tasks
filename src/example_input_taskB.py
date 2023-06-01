@@ -1,4 +1,4 @@
-### Output table that can be used for Task A ###
+### Input table that can be used for Task B ###
 def get_input_table_ddl_task_B(output_table_name_taskB):
     return   """CREATE TABLE {0} (
                 cid STRING,
