@@ -50,7 +50,7 @@ By copying to a new file (in ./src) and then modifying the starter template './s
  c. Run the following command to generate required output file: ```docker run  -v /Users/abdurkhan/development/repos/ds/ds-deng-tasks/data:/opt/heart_rate_flink/data  pyflink:mysense  /etc/poetry/bin/poetry run python /opt/heart_rate_flink/src/starter_template.py```
 
 
-NB you could augment the command (if desired) in 3 to make interactive shell and also add another volume mapping to map the source code directory with that in the docker container for quicker development (this should allow you to code in an your IDE of choice and execute your pyflink code in the docker container shell without having to rebuild; in addition as highlighted in 'Tip' above there should be options in pyflink to print to console to help with debugging) 
+NB you could augment the command (if desired) in 3 to make an interactive shell and also add another volume mapping to map the source code directory with that in the docker container for quicker development (this should allow you to code in an your IDE of choice and execute your pyflink code in the docker container shell without having to rebuild; in addition as highlighted in 'Tip' above there should be options in pyflink to print to console to help with debugging) 
 
 
 ## Submission: 
