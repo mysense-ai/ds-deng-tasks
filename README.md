@@ -43,7 +43,7 @@ By copying to a new file (in ./src) and then modifying the starter template './s
 
 ## Instructions to run: 
 
- a.  Build the docker File using the following commands ```docker build . -t pyflink:mysense``` , if using Mac with silicon chip try using the command: ```docker build . -t pyflink:mysense --platform linux/amd64 ```
+ a.  Build the docker file using the following commands ```docker build . -t pyflink:mysense``` , if using Mac with silicon chip try using the command: ```docker build . -t pyflink:mysense --platform linux/amd64 ```
 
  b. Update or copy the code as necessary in ./src/main.py to perform tasks above - NB some tips have been provided at the top
 
