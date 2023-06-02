@@ -2,7 +2,7 @@
 
 You are NOT expected to complete all the tasks (100%) - as you are not expected to have prior experience using apache flink - that said the test is not designed to take too long. Try to spend three hours (it is not timed so you can spend more time if you like), if you feel your stuck and it's taking too long - that's fine, just try to get as far as you can (a useful way is to print intermediate results to console), and note your approach and thinking so we can discuss together during the third stage.
 
-If anything is not clear in instructions, there are errors, evnironment is not building/starting etc. please do not hesitate to reach out 
+If anything is not clear in instructions, there are errors, environment is not building/starting etc. please do not hesitate to reach out 
 
 The following documentation should help you with the tasks below that require the use of apache flink; in particular pyflink (Python API): https://nightlies.apache.org/flink/flink-docs-stable/
 
