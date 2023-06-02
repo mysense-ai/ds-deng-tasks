@@ -52,7 +52,7 @@ By copying to a new file (in ./src) and then modifying the starter template './s
 
  b. Update or copy the code as necessary in ./src/main.py to perform tasks above - NB some tips have been provided at the top
 
- c. Run the following command to generate required output file: ```docker run  -v <to-update-root-direcotry>/data:/opt/heart_rate_flink/data  pyflink:mysense  /etc/poetry/bin/poetry run python /opt/heart_rate_flink/src/starter_template.py```
+ c. Run the following command to generate required output file: ```docker run  -v /Users/abdurkhan/development/repos/ds/ds-deng-tasks/data:/opt/heart_rate_flink/data  pyflink:mysense  /etc/poetry/bin/poetry run python /opt/heart_rate_flink/src/starter_template.py```
 
 
 NB you could augment the command (if desired) in 3 to make interactive shell and also add another volume mapping to map the source code directory with that in the docker container for quicker development (this should allow you to code in an your IDE of choice and exectue your pyflink code in the docker container shell without having to rebuild; in addition as highlighted in 'Tip' above there should be options in pyflink to print to console to help with debugging) 
@@ -60,5 +60,5 @@ NB you could augment the command (if desired) in 3 to make interactive shell and
 
 ## Submission: 
 
-Create a new branch (if given access to github repo) with the modified code (there should be one file for task A and one for task B) and provide commands such as above to run and get desired output in the output directory. 
+Either create a new public github repo and share address or zip and then email your solution with the modified code  (there should be one python file for task A and one for task B) and also provide commands such as above to run and get desired output in the output directory. 
  
