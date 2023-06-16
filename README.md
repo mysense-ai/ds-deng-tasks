@@ -32,7 +32,7 @@ By copying to a new file (in ./src) and then modifying the starter template './s
     Tip: If you choose to use the table api aggregations you will need to register 'event time' - amongst many possible approaches the two options are: 
 
         - Create a new pyflink app (using './src/start_template.py' as a base) with output from Task A as your 'input' and as 'output' have the required transformation, the example input DDL that can be used for this task is in './src/example_input_taskB.py'
-        - Create a new pyflink app using the pyflink app for task A as the base and adds more operations - (NB it is also possible to convert between tables and datastreams in pyflink - please refer to documentation )
+        - Create a new pyflink app using the pyflink app for task A as the base and add more operations - (NB it is also possible to convert between tables and datastreams in pyflink - please refer to documentation )
 
     Tip: If using table API and if column names are lost during transformations , the 'alias' command is a useful shortcut to rename columns as desired (it is not necessary to use this)
     
